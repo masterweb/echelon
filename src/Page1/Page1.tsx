@@ -13,8 +13,8 @@ export const Page1 = (): JSX.Element => {
           <div className='right-area col-lg-7'>
             <div className='right-top-area'>
               <div className='label'>
-                <p className='text-wrapper mb-5'>Una mejor <br /> experiencia quirúrgica</p>
-                <p className='text-wrapper'>Al alcance de su mano</p>
+                <p className='text-wrapper mb-5 text-sm-title'>Una mejor <br /> experiencia quirúrgica</p>
+                <p className='text-wrapper text-sm-title border-sep'>Al alcance de su mano</p>
               </div>
             </div>
             <div className='right-bottom-area'>

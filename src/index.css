@@ -50,6 +50,9 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.border-sep{
+  border-top: 2px solid #db2a33;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -61,5 +64,16 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .text-sm-title{
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .text-sm-title-section{
+    font-size: 35px !important;
+    line-height: 40px !important;
   }
 }

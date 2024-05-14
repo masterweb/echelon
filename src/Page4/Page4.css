@@ -34,7 +34,7 @@ section.page4 > .main-container {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centers content vertically */
-  font-family: 'Inter-Medium', Helvetica;
+  font-family: 'JJ Circular Std Book', Helvetica;
   font-size: 1rem;
 }
 .info-section > p {
@@ -59,7 +59,7 @@ section.page4 > .main-container {
   justify-content: flex-start; /* Align cards to the start */
 }
 
-section.page4 > .main-container > .content-container > .label > .text-wrapper {
+section.page4 > .main-container .content-container > .label > .text-wrapper {
   height: auto;
   max-width: 80%;
   color: #db2a33;

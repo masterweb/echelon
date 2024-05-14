@@ -24,10 +24,11 @@
 
 .product-card-content {
   padding: 20px;
+  font-family: 'JJ Circular Std Black', Helvetica, sans-serif;
 }
 
 .product-card p {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   color: #091e2b;
   margin: 0; /* Remove margin to control spacing strictly via padding */
 }

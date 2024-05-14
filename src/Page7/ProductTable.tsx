@@ -70,7 +70,7 @@ const ProductTable: React.FC = () => {
             <td style={{ width: '40%' }}>{product.descripcion}</td>
             {product.codigoProducto === 'ECH45C' ? (
               <td style={{ width: '20%' }} rowSpan={6}>
-                <img src={img1} alt='Recargas ECHELON™ ENDOPATH' />
+                <img src={img1} alt='Recargas ECHELON™ ENDOPATH' className='img-fluid' />
               </td>
             ) : null}
             <td>{product.longitudMandibula}</td>

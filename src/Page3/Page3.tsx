@@ -10,7 +10,7 @@ const Page3: React.FC = () => {
     <section className='page3'>
       <div className='main-container container'>
         <div className='label'>
-          <div className='text-wrapper'>
+          <div className='text-wrapper text-sm-title-section'>
             Acceso mejorado para anatomía desafiante<sup>6</sup>
           </div>
         </div>

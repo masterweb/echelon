@@ -25,8 +25,8 @@ section.page5 > .main-container > .content-container {
   height: auto;
 }
 
-section.page5 > .main-container > .info-section {
-  width: 41%;
+section.page5 > .main-container .info-section {
+  /* width: 41%; */
   background-color: #f4f4f4;
   color: #091e2b;
   padding: 20px;
@@ -49,7 +49,7 @@ section.page5 > .main-container > .info-section {
   min-width: 90%;
 }
 
-section.page5 > .main-container > .content-container > .label > .text-wrapper {
+section.page5 > .main-container .content-container > .label > .text-wrapper {
   height: auto;
   color: #db2a33;
   font-family: 'JJ Circular Std Black', Helvetica;
