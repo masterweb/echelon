@@ -1,0 +1,109 @@
+section.page6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.page6 > .main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  /* max-width: 1466px;
+  width: 100%; */
+  margin: auto;
+  text-align: left;
+  height: auto;
+}
+
+section.page6 > .main-container > .content-container {
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+section.page6 > .main-container > .info-section {
+  width: 41%;
+  background-color: #f4f4f4;
+  color: #091e2b;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter-Medium', Helvetica;
+  font-size: 1.5rem;
+}
+
+.image-pg5-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-pg5-container > img {
+  min-width: 90%;
+}
+
+section.page6 > .main-container > .content-container > .label > .text-wrapper {
+  height: auto;
+  color: #db2a33;
+  font-family: 'JJ Circular Std Black', Helvetica;
+  font-size: 38px;
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+section.page6 > .main-container > .content-container > .label > .text-wrapper2 {
+  color: #091e2b;
+  font-family: 'JJ Circular Std Book', Helvetica;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-align: left;
+  display: block;
+}
+
+.container-3-elements {
+  display: flex; /* Use flexbox to layout children side by side */
+  justify-content: space-between; /* Distribute space evenly between the elements */
+  width: 100%; /* Take full width of the parent container */
+}
+
+.element {
+  flex: 1; /* Each element takes equal space */
+  display: flex; /* Enables the use of flex properties for layout */
+  flex-direction: column; /* Aligns children vertically */
+  align-items: center; /* Centers children horizontally within each element */
+  text-align: center; /* Centers the text within each element */
+}
+
+.highlighted-number {
+  color: #db2a33; /* Red color, same as previous usage */
+  font-size: 1.5em; /* Larger font size for emphasis */
+  margin: -3rem; /* Space between the number and the text below */
+  margin-top: 3rem; /* Space between the number and the text above */
+}
+
+.red-text {
+  color: #db2a33;
+  font-family: Inter;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.circular-black{
+  font-family: 'JJ Circular Std Black', Helvetica;
+}
+.info-section > p{
+  font-size: 17px;
+}

@@ -1,0 +1,32 @@
+/* HighlightCard.css */
+.highlight-card {
+  display: flex;
+  width: 100%; /* Responsive base width, can adjust via a max-width */
+  max-width: 600px; /* Example fixed width, adjust as necessary */
+  align-items: center; /* Aligns items in the middle vertically */
+  padding: 10px; /* Padding around the content for spacing */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.highlight-group {
+  display: flex;
+  width: 100%;
+  align-items: center; /* Ensures that image and text are aligned in the middle */
+}
+
+.highlight-image {
+  flex: 0 0 13%; /* Allocates exactly 13% of the total width to the image */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the set dimensions */
+}
+
+.highlight-text {
+  flex: 0 0 70%; /* Allocates exactly 50% of the total width to the text */
+  margin: 10px 20px; /* Adds horizontal margin for spacing around the text */
+  overflow: visible;
+  text-overflow: ellipsis; /* Adds an ellipsis if text overflows */
+  font-size: 1.6rem;
+  font-family: 'JJ Circular Std Black', Helvetica;
+  line-height: 1.8rem;
+  
+}

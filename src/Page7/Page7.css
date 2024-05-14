@@ -1,0 +1,78 @@
+section.page7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full width of the viewport */
+  max-width: 1466px; /* Maximum width */
+  margin: 1rem auto; /* Centered horizontally with a margin of 1rem on top and bottom */
+}
+
+.page7 > .main-container {
+  display: flex;
+  flex-direction: row; /* Ensures the child elements are laid out in a row */
+  /* width: 100%; Take up 100% of the section */
+  /* max-width: 1466px; Maximum width constraint */
+}
+
+.page7 > .main-container > .content-container {
+  width: 75%; /* 80% of the main-container */
+  display: flex;
+  flex-direction: column;
+}
+
+.page7 > .main-container > .info-section2 {
+  width: 25%; /* 20% of the main-container */
+  display: flex;
+  flex-direction: column;
+  padding: 10px; /* Padding for content inside */
+  padding-left: 20px; /* Additional padding on the left */
+}
+
+.label .text-wrapper {
+  color: #db2a33;
+  font-family: 'JJ Circular Std Black', Helvetica;
+  font-size: 28px; /* Adjusted for consistency */
+  font-weight: 900;
+  margin-top: 5rem;
+  height: 58px; /* Ensures the container has a specific height */
+  letter-spacing: 0;
+  line-height: normal;
+}
+.label .text-wrapper3 {
+  color: #db2a33;
+  font-family: 'JJ Circular Std Black', Helvetica;
+  font-size: 20px; /* Adjusted for consistency */
+  font-weight: 900;
+  margin-top: 5rem;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 100%;
+}
+
+.page7 > .label > p {
+  margin-top: 0;
+}
+
+.info-section2 .label,
+.content-container .label {
+  width: 100%; /* Ensure labels take up full width of their containers */
+}
+table tbody td{
+  font-size: 0.8rem !important;
+}
+table thead th{
+  font-family: 'JJ Circular Std Book', Helvetica;
+  font-size: 13px;
+}
+.circular-black {
+  font-family: 'JJ Circular Std Black', Helvetica;
+}
+.circular-book {
+  font-family: 'JJ Circular Std Book', Helvetica;
+}
+.text-sm{
+  font-size: 14px;
+}
+.info-section2 .text-xs {
+  font-size: 12px !important;
+}

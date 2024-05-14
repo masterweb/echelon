@@ -1,0 +1,53 @@
+/* Global table styling */
+table {
+  width: 100%; /* Make sure the table spans the full width of its container */
+  table-layout: fixed; /* This helps enforce the width specifications */
+}
+
+/* Header row styling */
+table thead th {
+  background-color: #888b8d;
+  border-bottom: 2pt solid #c8102e;
+  color: #fff;
+  padding: 3pt;
+  text-align: left;
+}
+
+/* Data cell styling */
+table tbody td {
+  color: #16191c;
+  font-family: 'J&J Circular Book', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px;
+
+  width: 54pt;
+  border-top-style: solid;
+  border-top-width: 1pt;
+  border-top-color: #888b8d;
+  border-left-style: solid;
+  border-left-width: 1pt;
+  border-left-color: #888b8d;
+  border-bottom-style: solid;
+  border-bottom-width: 1pt;
+  border-bottom-color: #888b8d;
+  border-right-style: solid;
+  border-right-width: 1pt;
+  border-right-color: #888b8d;
+}
+
+/* Ensure the last right border is omitted for cleaner look */
+table td:last-child {
+  border-right: none;
+}
+
+/* Styling for images within table cells */
+table td img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto; /* Adjust width as necessary */
+  height: auto;
+}

@@ -1,0 +1,51 @@
+section.page3 > .main-container > .label .text-wrapper {
+  color: #db2a33;
+  font-family: 'JJ Circular Std Black', Helvetica;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  height: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+section.page3 > .label {
+  width: 100%;
+}
+
+section.page3 > .main-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  /* max-width: 1466px;
+  width: 100vw; */
+  margin: auto;
+  text-align: left;
+}
+
+section.page3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100vw;
+}
+
+section.page3 > .main-container .text-wrapper2 {
+  color: #091e2b;
+  font-family: 'JJ Circular Std Book', Helvetica;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  text-align: left;
+  display: block;
+}
+
+section.page3 > .main-container > .label > img {
+  width: 100%; /* Adjust width as necessary */
+  max-width: 1366px; /* Limit maximum width if needed */
+  display: block; /* Ensures the image takes up the full line */
+}

@@ -1,0 +1,82 @@
+section.page4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.page4 > .main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  /* max-width: 1466px;
+  width: 100%; */
+  margin: auto;
+  text-align: left;
+  height: auto;
+}
+
+.content-container {
+  width: 79%;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  height: auto;
+}
+
+.info-section {
+  width: 21%;
+  background-color: #091f2c; /* Dark blue background */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  font-family: 'Inter-Medium', Helvetica;
+  font-size: 1rem;
+}
+.info-section > p {
+  margin-top: 20px;
+}
+
+.info-section > .iconDiv > .icon {
+  width: auto; /* Ensures natural image width is respected initially */
+  height: auto; /* Ensures natural image height is respected */
+  transform: scale(1.5); /* Scales the image to twice its original size */
+  transform-origin: center; /* Ensures the scaling is centered */
+}
+
+.info-section > .iconDiv {
+  width: 100%;
+  text-align: center;
+}
+
+.product-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align cards to the start */
+}
+
+section.page4 > .main-container > .content-container > .label > .text-wrapper {
+  height: auto;
+  max-width: 80%;
+  color: #db2a33;
+  font-family: 'Inter-Black', Helvetica;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-card {
+  flex: 1 1 300px; /* Allows flex grow and shrink, basis is 300px */
+  max-width: 750px; /* Maximum card width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}

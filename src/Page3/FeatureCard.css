@@ -1,0 +1,39 @@
+/* FeatureCard.css */
+.feature-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between cards */
+}
+
+.feature-card {
+  flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
+  max-width: 750px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.feature-card-media {
+  height: 600px; /* Increased height */
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-card-content {
+  padding: 20px;
+}
+
+.feature-card h3 {
+  color: #091e2b;
+  margin-top: 0;
+}
+
+.feature-card p {
+  font-size: 1.5rem;
+  color: #091e2b;
+}
+.feature-card span b{
+  font-family: 'JJ Circular Std Black', Helvetica, sans-serif;;
+}

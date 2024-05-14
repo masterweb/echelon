@@ -1,0 +1,70 @@
+section.page5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.page5 > .main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  /* max-width: 1466px;
+  width: 100%; */
+  margin: auto;
+  text-align: left;
+  height: auto;
+}
+
+section.page5 > .main-container > .content-container {
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+section.page5 > .main-container > .info-section {
+  width: 41%;
+  background-color: #f4f4f4;
+  color: #091e2b;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'JJ Circular Std Book', Helvetica;
+  font-size: 1.5rem;
+}
+
+.image-pg5-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-pg5-container > img {
+  min-width: 90%;
+}
+
+section.page5 > .main-container > .content-container > .label > .text-wrapper {
+  height: auto;
+  color: #db2a33;
+  font-family: 'JJ Circular Std Black', Helvetica;
+  font-size: 43px;
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+section.page5>.main-container .text-wrapper2 {
+  font-family: 'JJ Circular Std Book', Helvetica;
+  font-size: 20px;
+}
+.text-xs{
+  font-size: 16px !important;
+}
