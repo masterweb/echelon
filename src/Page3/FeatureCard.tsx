@@ -13,7 +13,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ description, imageUrl }) => {
       </div>
       <div
         className='feature-card-media'
-        style={{ backgroundImage: `url(${imageUrl})` }}
+        style={{ backgroundImage: `url(${imageUrl})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}
       />
     </div>
   );

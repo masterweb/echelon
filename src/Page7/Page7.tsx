@@ -42,6 +42,22 @@ const Page7: React.FC = () => {
                 prospecto completo.
               </p>
             </div>
+            <div className='d-flex gap-4 my-6 flex-mb flex-col-t flex-column justify-center'>
+              <a
+                href='https://cloud.latam.jnjmedtech.com/RequestDemoProductForm?lang=ES&brand=4&utm_campaign=Echelon3000&product=echelon3000&UTM_Medium=Congress&UTM_Source=Showpad'
+                target='_blank'
+                className='btn btn-etc-harmonic text-stag w-280'
+              >
+                Quiero saber más
+              </a>
+              <a
+                href='https://www.jnjmedtech.com/es-419/companies/ethicon'
+                target='_blank'
+                className='btn btn-etc-harmonic text-stag w-280'
+              >
+                Conoce más de Ethicon
+              </a>
+            </div>
           </div>
         </div>
       </div>

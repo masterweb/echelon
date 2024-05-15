@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
             </p>
           </div>
           <div className='col-md-6 col-12 d-flex cont-logo'>
-            <div className='d-flex gap-4 my-6 flex-mb flex-col-t'>
+            {/* <div className='d-flex gap-4 my-6 flex-mb flex-col-t'>
               <a
                 href='https://cloud.latam.jnjmedtech.com/prod-digital-reg-form?lang=ES&amp;brand=23&amp;utm_campaign=Harmonic&amp;utm_medium=QR&amp;utm_source=showpad'
                 target='_blank'
@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
               >
                 Conoce más de Ethicon
               </a>
-            </div>
+            </div> */}
             <img
               className='ethicon-logo'
               src={logoEthicon}
