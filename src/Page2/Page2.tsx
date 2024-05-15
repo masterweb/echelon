@@ -7,7 +7,7 @@ export const Page2 = (): JSX.Element => {
       <div className='main-container container'>
         <div className="row">
           <div className='label col-md-12'>
-            <div className='text-wrapper'>Grapadora ECHELON™ 3000</div>
+            <div className='text-wrapper text-sm-title'>Grapadora ECHELON™ 3000</div>
           </div>
           <div className='label col-md-12'>
             <div className='text-wrapper2'>

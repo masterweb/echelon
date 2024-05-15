@@ -89,13 +89,14 @@ section.page6 > .main-container .content-container > .label > .text-wrapper2 {
 .highlighted-number {
   color: #db2a33; /* Red color, same as previous usage */
   font-size: 1.5em; /* Larger font size for emphasis */
-  margin: -3rem; /* Space between the number and the text below */
-  margin-top: 3rem; /* Space between the number and the text above */
+  margin: 0; /* Space between the number and the text below */
+  margin-top: 2rem; /* Space between the number and the text above */
+  line-height: 1rem;
 }
 
 .red-text {
   color: #db2a33;
-  font-family: Inter;
+  font-family: 'JJ Circular Std Black', Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 500;

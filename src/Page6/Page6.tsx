@@ -37,55 +37,55 @@ const Page6: React.FC = () => {
             </p>
             <div className='container-3-elements'>
               <div className='element'>
-                <img src={icon1} alt='Icon' />
-                <p className='red-text'>Complicaciones clínicas reducidas</p>
+                <img src={icon3} alt='Icon' className='img-fluid' style={{width: '57px'}}/>
+                <p className='red-text mt-3'>Complicaciones clínicas reducidas</p>
               </div>
               <div className='element'>
-                <img src={icon2} alt='Icon' />
-                <p className='red-text'>Costos hospitalarios reducidos</p>
+                <img src={icon1} alt='Icon' className='img-fluid' style={{width: '57px'}}/>
+                <p className='red-text mt-3'>Costos hospitalarios reducidos</p>
               </div>
               <div className='element'>
-                <img src={icon3} alt='Icon' />
-                <p className='red-text'>Mayor eficiencia</p>
+                <img src={icon2} alt='Icon' className='img-fluid' style={{width: '57px'}}/>
+                <p className='red-text mt-3'>Mayor eficiencia</p>
               </div>
             </div>
             <p>Demostrado por evidencia a gran escala, del mundo real</p>
             <div className='container-3-elements'>
               <div className='element'>
                 <p className='highlighted-number'>9</p>
-                <br />
+                
                 <p>
                   <b className='circular-black text-xs'>estudios</b>
                 </p>
-                <br />
+                
                 <p className='highlighted-number'>700+</p>
-                <br />
+                
                 <p>
                   <b className='circular-black text-xs'>hospitales</b>
                 </p>
               </div>
               <div className='element'>
                 <p className='highlighted-number'>7</p>
-                <br />
+                
                 <p>
                   <b className='circular-black text-xs'>países</b>
                 </p>
-                <br />
+                
                 <p className='highlighted-number'>66</p>
-                <br />
+                
                 <p>
                   <b className='circular-black text-xs'>autores</b>
                 </p>
               </div>
               <div className='element'>
                 <p className='highlighted-number'>3</p>
-                <br />
+                
                 <p>
                   <b className='circular-black text-xs'>continentes</b>
                 </p>
-                <br />
+                
                 <p className='highlighted-number'>46.000+</p>
-                <br />
+                
                 <p>
                   <b className='circular-black text-xs'>pacientes</b>
                 </p>

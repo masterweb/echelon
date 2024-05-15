@@ -17,12 +17,12 @@ const Page7: React.FC = () => {
             </p>
             <ProductTable />
             <br />
-            <p>
+            <p className='mt-3'>
               <b className='circular-black'>Recargas ECHELON™ ENDOPATH</b>
             </p>
             <ProductTable2 />
             <br />
-            <p>
+            <p className='mt-3'>
               <b className='circular-black'>Refuerzo de la línea de grapado ECHELON ENDOPATH™</b>
             </p>
             <ProductTable3 />
