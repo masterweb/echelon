@@ -51,6 +51,7 @@ const products = [
 
 const ProductTable: React.FC = () => {
   return (
+    <div className='table-responsive'>
     <table>
       <thead>
         <tr>
@@ -80,6 +81,7 @@ const ProductTable: React.FC = () => {
         ))}
       </tbody>
     </table>
+    </div>
   );
 };
 

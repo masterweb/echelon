@@ -27,7 +27,7 @@ const HighlightCard: React.FC<HighlightCardProps> = ({
           alt={truncatedDescription}
         />
         <div
-          className='highlight-text'
+          className='highlight-text highlight-text-sm'
           dangerouslySetInnerHTML={createMarkup()}
         />
       </div>

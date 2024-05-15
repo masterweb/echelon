@@ -73,7 +73,10 @@ button:focus-visible {
     line-height: 35px !important;
   }
   .text-sm-title-section{
-    font-size: 35px !important;
-    line-height: 40px !important;
+    font-size: 25px !important;
+    line-height: 30px !important;
+  }
+  .highlight-text-sm{
+    font-size: 1.2rem !important;
   }
 }

@@ -11,7 +11,7 @@ const Page6: React.FC = () => {
         <div className="row">
           <div className='content-container col-md-8'>
             <div className='label'>
-              <div className='text-wrapper'>
+              <div className='text-wrapper text-sm-title-section'>
                 <p>
                   Resultados basados en el desempeño. Respaldados por evidencia.
                 </p>

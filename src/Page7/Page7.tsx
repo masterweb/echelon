@@ -10,7 +10,7 @@ const Page7: React.FC = () => {
         <div className="row">
           <div className='content-container col-md-9'>
             <div className='label'>
-              <div className='text-wrapper'>Información sobre productos</div>
+              <div className='text-wrapper text-sm-title-section'>Información sobre productos</div>
             </div>
             <p>
               <b className='circular-black'>Grapadora ECHELON™ 3000</b>

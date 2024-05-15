@@ -1,15 +1,15 @@
 /* Global table styling */
 table {
   width: 100%; /* Make sure the table spans the full width of its container */
-  table-layout: fixed; /* This helps enforce the width specifications */
+  table-layout: auto; /* This helps enforce the width specifications */
 }
 
 /* Header row styling */
 table thead th {
-  background-color: #888b8d;
-  border-bottom: 2pt solid #c8102e;
-  color: #fff;
-  padding: 3pt;
+  background-color: #888b8d !important;
+  border-bottom: 2pt solid #c8102e !important;
+  color: #fff !important;
+  padding: 3pt !important;
   text-align: left;
 }
 
