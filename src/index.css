@@ -56,6 +56,17 @@ button:focus-visible {
 .border-but{
   border-bottom: 2px solid #db2a33;
 }
+.open-enseal{
+  position: relative;
+}
+.open-enseal::before{
+  content: '';
+  background-color: #db2a33;
+  position: absolute;
+  width: 100%;
+  height: 1.2px;
+  top: 35%;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
