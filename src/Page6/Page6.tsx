@@ -9,7 +9,7 @@ const Page6: React.FC = () => {
     <section className='page6'>
       <div className='main-container container'>
         <div className="row">
-          <div className='content-container col-md-12 col-lg-8'>
+          <div className='content-container col-md-12 col-lg-7 col-xl-8'>
             <div className='label'>
               <div className='text-wrapper text-sm-title-section'>
                 <p>
@@ -29,7 +29,7 @@ const Page6: React.FC = () => {
               <img src={img1} alt='La seguridad en la línea de grapas' className='img-fluid'/>
             </div>
           </div>
-          <div className='info-section col-md-12 col-lg-4'>
+          <div className='info-section col-md-12 col-lg-5 col-xl-4'>
             <p>
               <b className='circular-black'>Grapadoras Eléctricas ECHELON™</b>
               <br />

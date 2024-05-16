@@ -36,9 +36,9 @@ section.page3 {
 section.page3 > .main-container .text-wrapper2 {
   color: #091e2b;
   font-family: 'JJ Circular Std Book', Helvetica;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.5rem;
   letter-spacing: 0;
   text-align: left;
   display: block;
