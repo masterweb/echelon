@@ -6,9 +6,9 @@ import ProductTable3 from './ProductTable3';
 const Page7: React.FC = () => {
   return (
     <section className='page7'>
-      <div className='main-container container'>
+      <div className='container'>
         <div className="row">
-          <div className='content-container col-md-12 col-lg-9'>
+          <div className='content-container col-md-12 col-lg-12'>
             <div className='label'>
               <div className='text-wrapper text-sm-title-section'>Información sobre productos</div>
             </div>
@@ -28,8 +28,8 @@ const Page7: React.FC = () => {
             <ProductTable3 />
           </div>
 
-          <div className='info-section2 col-md-12 col-lg-3 d-flex align-items-center'>
-            {/* <div className='label'>
+          <div className='info-section2 col-md-12 col-lg-6 d-flex align-items-center'>
+            <div className='label'>
               <div className='text-wrapper3 mb-4'>
                 Comuníquese con su representante de Ethicon para obtener más
                 información.
@@ -39,10 +39,14 @@ const Page7: React.FC = () => {
                 son marcas comerciales de sus respectivos propietarios. Para
                 obtener indicaciones, contraindicaciones, advertencias,
                 precauciones y reacciones adversas completas, consulte el
-                prospecto completo.
-              </p>
-            </div> */}
-            <div className='d-flex gap-4 my-6 flex-mb flex-col-t flex-column justify-center align-items-center'>
+                prospecto completo.              </p>
+            </div>
+            
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className='d-flex gap-4 my-4 flex-mb flex-col-t flex-row justify-content-center align-items-center'>
               <a
                 href='https://cloud.latam.jnjmedtech.com/RequestDemoProductForm?lang=ES&brand=4&utm_campaign=Echelon3000&product=echelon3000&UTM_Medium=Congress&UTM_Source=Showpad'
                 target='_blank'
@@ -59,7 +63,7 @@ const Page7: React.FC = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </section>
   );

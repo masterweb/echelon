@@ -94,19 +94,7 @@ const Footer: React.FC = () => {
             </p>
           </div>
           <div className='col-md-6 col-12 d-flex cont-logo'>
-            <div className='label'>
-              <div className='text-wrapper3 mb-4'>
-                Comuníquese con su representante de Ethicon para obtener más
-                información.
-              </div>
-              <p className='circular-book text-xs'>
-                Las marcas comerciales de terceros utilizadas en este documento
-                son marcas comerciales de sus respectivos propietarios. Para
-                obtener indicaciones, contraindicaciones, advertencias,
-                precauciones y reacciones adversas completas, consulte el
-                prospecto completo.
-              </p>
-            </div>
+            
             {/* <div className='d-flex gap-4 my-6 flex-mb flex-col-t'>
               <a
                 href='https://cloud.latam.jnjmedtech.com/prod-digital-reg-form?lang=ES&amp;brand=23&amp;utm_campaign=Harmonic&amp;utm_medium=QR&amp;utm_source=showpad'

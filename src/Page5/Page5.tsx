@@ -28,13 +28,13 @@ const Page5: React.FC = () => {
               En comparación con el Sistema de Grapado del principal competidor en
               pruebas preclínicas y de laboratorio:
             </p>
-            <div>
+            <div className='border-but'>
               <HighlightCard
                 rectangle={rectangle1}
                 description='<b>Significativamente menos fugas en la línea de grapas<sup>14</sup></b>'
               />
             </div>
-            <div>
+            <div className='border-but'>
               <HighlightCard
                 rectangle={rectangle2}
                 description='<b>66% menos grapas malformadas en tejido grueso<sup>15</sup></b>'
