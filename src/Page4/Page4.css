@@ -37,7 +37,7 @@ section.page4 > .main-container {
   font-family: 'JJ Circular Std Book', Helvetica;
   font-size: 1rem;
 }
-.info-section > p, .info-section li {
+section.page4 .info-section > p, section.page4 .info-section li {
   font-size: 15px !important;
   margin-top: 20px;
 }
