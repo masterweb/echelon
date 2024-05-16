@@ -9,7 +9,7 @@ const Page4: React.FC = () => {
     <section className='page4'>
       <div className='main-container container'>
         <div className="row">
-          <div className='content-container col-md-10'>
+          <div className='content-container col-md-12 col-lg-10'>
             <div className='label'>
               <div className='text-wrapper text-sm-title-section'>
                 <p>
@@ -38,7 +38,7 @@ const Page4: React.FC = () => {
               />
             </div>
           </div>
-          <div className='info-section col-md-2'>
+          <div className='info-section col-md-12 col-lg-2'>
             <div className='iconDiv'>
               <img src={img3} alt='rectangle' className='icon' />
             </div>

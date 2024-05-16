@@ -8,7 +8,7 @@ const Page7: React.FC = () => {
     <section className='page7'>
       <div className='main-container container'>
         <div className="row">
-          <div className='content-container col-md-9'>
+          <div className='content-container col-md-12 col-lg-9'>
             <div className='label'>
               <div className='text-wrapper text-sm-title-section'>Información sobre productos</div>
             </div>
@@ -28,7 +28,7 @@ const Page7: React.FC = () => {
             <ProductTable3 />
           </div>
 
-          <div className='info-section2 col-md-3'>
+          <div className='info-section2 col-md-12 col-lg-3'>
             <div className='label'>
               <div className='text-wrapper3 mb-4'>
                 Comuníquese con su representante de Ethicon para obtener más

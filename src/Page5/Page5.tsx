@@ -10,7 +10,7 @@ const Page5: React.FC = () => {
     <section className='page5'>
       <div className='main-container container'>
         <div className="row">
-          <div className='content-container col-md-8'>
+          <div className='content-container col-md-12 col-lg-8'>
             <div className='label'>
               <div className='text-wrapper text-sm-title-section'>
                 <p>
@@ -23,7 +23,7 @@ const Page5: React.FC = () => {
               <img src={img1} alt='La seguridad en la línea de grapas' className='img-fluid'/>
             </div>
           </div>
-          <div className='info-section col-md-4'>
+          <div className='info-section col-md-12 col-lg-4'>
             <p className='text-wrapper2'>
               En comparación con el Sistema de Grapado del principal competidor en
               pruebas preclínicas y de laboratorio:
